@@ -11,8 +11,8 @@ namespace EmployeeWage{
                 empHour=8;
             else
                 empHour=0;
-            int Employee=EMP_RATE_PER_HOUR*empHour;
-            Console.WriteLine("Employee : "+Employee);
+            empWage=EMP_RATE_PER_HOUR*empHour;
+            Console.WriteLine("Employee : "+empWage);
         }
     } 
 }
